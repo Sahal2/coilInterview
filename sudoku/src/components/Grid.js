@@ -13,12 +13,12 @@ export default function Grid(props) {
     row.map((obj, columnIndex) => (
       <div key={index.toString() + columnIndex.toString()} className='cell'>
         {!props.originalBoard[index][columnIndex] ? (
-          <input className='enterValue' value={obj} onChange={(e) => props.changeNumber(index, columnIndex, e.target.value)} />
+          <input data-testid="cell" className='enterValue' value={obj} onChange={(e) => props.changeNumber(index, columnIndex, e.target.value)} />
         ) : (
           <input className='originalValue' value={obj} />
         )}
       </div>
     ))
   )
-  return <div className='container'>{cells}</div>
+  return <div data-testid="board" className='container'>{cells}</div>
 }
