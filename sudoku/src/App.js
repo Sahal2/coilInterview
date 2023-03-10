@@ -29,7 +29,7 @@ function App() {
     const isValid = transverseArray(rows) && transverseArray(columns) && transverseArray(boxes)
 
     if (isValid) {
-      setCheckAnswerValue('Answer is correct')
+      setCheckAnswerValue('Completed!')
     } else {
       setCheckAnswerValue('Answer is not correct')
     }

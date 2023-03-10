@@ -1,3 +1,7 @@
+Rules:
+You can only delete previous input by using the backspace it cannot be overwritten.
+The error being shows will occur in the order column, row and box. Which ever happens first will be shown others will be ignored.
+
 ## Available Scripts
 
 In the project directory, you can run:
