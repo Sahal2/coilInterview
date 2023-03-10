@@ -160,7 +160,7 @@ function App() {
           <button onClick={hideAlert}>close</button>
         </div>
       )}
-      <Grid  changeNumber={changeNumber} board={board} originalBoard={originalBoard} />
+      <Grid changeNumber={changeNumber} board={board} originalBoard={originalBoard} />
       {checkAnswerVisible && (
         <div>
           <p>{checkAnswerValue}</p>
