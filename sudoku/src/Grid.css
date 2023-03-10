@@ -1,0 +1,28 @@
+.container {
+  width: 50%;
+  height:50%;
+  margin: auto;
+  padding-bottom: 100px;
+  border-radius: 100px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 1rem;
+  text-align: center;
+}
+.cell{
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+.originalValue{
+  width: 100%;
+  height:100%;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+.enterValue{
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
